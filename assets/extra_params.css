@@ -1,0 +1,45 @@
+/* Variable declarations for the layout */
+:root {
+  /* most of the layout's buttons */
+  --primary_select_button_background_color: black; /* black */
+  --hover_select_button_background_color: #020E5D; /* sapphire */
+  /* X buttons */
+  --primary_x_button_background_color: #28282B; /* matte black */
+  --primary_x_button_text_color: white;
+  --hover_x_button_text_color: red;
+}
+
+/* select buttons */
+button.select-button {
+  background-color: var(--primary_select_button_background_color);
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+button.select-button:hover {
+  background-color: var(--hover_select_button_background_color);
+}
+
+/* X buttons */
+button.x-button {
+  background-color: var(--primary_x_button_background_color);
+  color: var(--primary_x_button_text_color);
+  border: none;
+  vertical-align: top;
+}
+
+button.x-button:hover {
+  color: var(--hover_x_button_text_color);
+}
+
+/* Slider handle */
+.rc-slider-handle {
+  background-color: #28282B;
+  border-color: white;
+}
+
+/* Radio buttons */
+.radio-buttons{
+  accent-color:black;
+}
